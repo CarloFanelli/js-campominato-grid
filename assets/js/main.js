@@ -32,7 +32,7 @@ function createField(elementDOM, squareNumber) {
 
             squareDOM.classList.toggle('bg-info')
 
-            squareTag.classList.toggle('d-none')
+            //squareTag.classList.toggle('d-none')
         })
 
         i++;
