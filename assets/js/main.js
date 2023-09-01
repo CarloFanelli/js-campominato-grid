@@ -30,7 +30,9 @@ function createField(elementDOM, squareNumber) {
 
             console.log(squareValue);
 
-            squareDOM.classList.toggle('bg-info')
+            //console.log(this);
+
+            this.classList.toggle('bg-info')
 
             //squareTag.classList.toggle('d-none')
         })
@@ -47,3 +49,5 @@ document.getElementById('create-field').addEventListener('click', function () {
     createField(fieldDOM, 100);
 
 })
+
+
