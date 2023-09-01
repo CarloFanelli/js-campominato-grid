@@ -14,6 +14,10 @@ console.log('ciao');
 
 }
 
-const fieldDOM = document.querySelector('.field');
-
-createField(fieldDOM,100);
+document.getElementById('create-field').addEventListener('click',function(){
+    
+    const fieldDOM = document.querySelector('.field');
+    
+    createField(fieldDOM,100);
+    
+})
